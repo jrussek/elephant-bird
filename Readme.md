@@ -24,7 +24,6 @@ If you don't want to build elephant-bird with protobuf support or you don't have
 (fedora for instance only provides 2.2), you can have ant exclude all classes that rely on protobuf by using ant noproto target
 
 for the default target this would be:
-
 <code><pre>
 ant noproto release-jar
 </pre></code>
